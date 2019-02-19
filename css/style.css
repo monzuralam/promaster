@@ -8,6 +8,9 @@ body {
   font-size: 16px;
 }
 
+/* -------------------------------
+---Top bar section start here ---
+---------------------------------*/
 .top-bar {
   background-color: gray;
   color: #fff;
@@ -29,6 +32,12 @@ body {
   color: #46B56B;
 }
 
+/* -----------------------------
+--- top bar section stop here ---
+--------------------------------*/
+/* -----------------------------
+--- nav section start here ----
+--------------------------------*/
 header {
   height: 100px;
   background-color: #fff;
@@ -57,6 +66,12 @@ header nav ul button {
   padding: 0.5rem 2rem !important;
 }
 
+/* --------------------------------------
+----- nav section end ----------
+----------------------------------*/
+/* --------------------------------
+---- slider section start --------
+----------------------------------*/
 .tit {
   font: 400 1rem "Roboto", sans-serif;
   text-transform: uppercase;
@@ -134,5 +149,41 @@ header nav ul button {
   text-decoration: none;
   margin-top: 0.5rem;
 }
+
+/* ----------------------------------
+--------- slider section end --------
+------------------------------------*/
+.features-section {
+  margin: 90px 0px;
+  text-align: center;
+}
+.features-section .section-title {
+  color: #46B56B;
+}
+.features-section .section-title h3 {
+  font-weight: 700px;
+  line-height: 50px;
+}
+.features-section .feature-box {
+  margin-top: 54px;
+}
+.features-section .feature-box .icon i {
+  font-size: 65px;
+}
+.features-section .feature-box .feature-title {
+  margin: 10px 0px -2px;
+}
+.features-section .feature-box .feature-title h5 {
+  line-height: 46px;
+  color: #46B56B;
+}
+.features-section .feature-box:hover > .icon {
+  transform: translateY(-10px);
+  transition: 0.3s;
+}
+
+/* ------------------------------------------
+--------- feature section start here --------
+---------------------------------------------*/
 
 /*# sourceMappingURL=style.css.map */
