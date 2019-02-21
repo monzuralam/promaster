@@ -167,6 +167,9 @@ header nav ul button {
 .features-section .feature-box {
   margin-top: 54px;
 }
+.features-section .feature-box .icon {
+  transition: 0.3s;
+}
 .features-section .feature-box .icon i {
   font-size: 65px;
 }
@@ -179,7 +182,7 @@ header nav ul button {
 }
 .features-section .feature-box:hover > .icon {
   transform: translateY(-10px);
-  transition: 0.3s;
+  color: #46B56B;
 }
 
 /* ------------------------------------------
