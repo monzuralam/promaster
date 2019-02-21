@@ -333,5 +333,43 @@ header nav ul button {
 /* ------------------------------------------
 --------- teacher section stop here --------
 ---------------------------------------------*/
+/* ------------------------------------------
+--------- mise section stop here --------
+---------------------------------------------*/
+.mise-section {
+  background-color: #f5f5f5;
+}
+.mise-section .section-title {
+  padding-top: 90px;
+  color: #46B56B;
+  text-align: left;
+  margin-bottom: 30px;
+}
+.mise-section .section-title h3 {
+  font-weight: 700;
+  line-height: 50px;
+}
+.mise-section #accordion .card {
+  margin-bottom: 15px;
+  background-color: #fff;
+}
+.mise-section #accordion .card .card-header {
+  background-color: #fff;
+}
+.mise-section #accordion .card .card-header h6 a {
+  color: #464a4e !important;
+  text-decoration: none;
+  display: block;
+}
+.mise-section #accordion .card .card-header h6 a:hover {
+  color: #46B56B !important;
+}
+.mise-section #accordion .card-last {
+  margin-bottom: 90px;
+}
+
+/* ------------------------------------------
+--------- mise section stop here --------
+---------------------------------------------*/
 
 /*# sourceMappingURL=style.css.map */
