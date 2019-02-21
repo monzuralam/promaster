@@ -422,5 +422,24 @@ header nav ul button {
 /* ------------------------------------------
 --------- footer section stop here --------
 ---------------------------------------------*/
+/* ------------------------------------------
+--------- Courses section stop here --------
+---------------------------------------------*/
+.course-header {
+  padding: 50px 0px;
+  text-align: center;
+  background-color: #46B56B;
+}
+.course-header .entry-title {
+  font: normal 30px/20px;
+  text-transform: uppercase;
+  margin-bottom: 17px;
+  color: #fff;
+  text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+/* ------------------------------------------
+--------- Courses section stop here --------
+---------------------------------------------*/
 
 /*# sourceMappingURL=style.css.map */
