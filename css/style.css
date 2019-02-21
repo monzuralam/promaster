@@ -617,5 +617,53 @@ header nav ul button {
 /* ------------------------------------------
 --------- about section stop here --------
 ---------------------------------------------*/
+/* ------------------------------------------
+--------- contact section stop here --------
+---------------------------------------------*/
+.contact-section {
+  background-color: #f5f5f5;
+}
+.contact-section .contact-left {
+  background-color: #fff;
+  height: 100%;
+  padding: 25px;
+  margin: 50px 0px 80px 0px;
+}
+.contact-section .contact-left .contact-title i {
+  color: #fff;
+  font-size: 20px;
+  background: #46b56b;
+  padding: 6px 8px;
+}
+.contact-section .contact-left .contact-title h3 {
+  padding-left: 50px;
+}
+.contact-section .contact-left .contact-form input {
+  margin-bottom: 20px;
+}
+.contact-section .contact-left .contact-form textarea {
+  margin-bottom: 15px;
+}
+.contact-section .contact-left .contact-form button {
+  background: #46b56b;
+}
+.contact-section .contact-right {
+  background-color: #fff;
+  margin-top: 50px;
+  padding: 25px;
+}
+.contact-section .contact-right .help-line i {
+  color: #fff;
+  background: #46b56b;
+  padding: 6px 8px;
+  margin-bottom: 10px;
+}
+.contact-section .contact-right .help-line h5 {
+  font-weight: 400;
+}
+
+/* ------------------------------------------
+--------- contact section stop here --------
+---------------------------------------------*/
 
 /*# sourceMappingURL=style.css.map */
