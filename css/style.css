@@ -618,7 +618,7 @@ header nav ul button {
 --------- about section stop here --------
 ---------------------------------------------*/
 /* ------------------------------------------
---------- contact section stop here --------
+--------- contact section start here --------
 ---------------------------------------------*/
 .contact-section {
   background-color: #f5f5f5;
@@ -664,6 +664,68 @@ header nav ul button {
 
 /* ------------------------------------------
 --------- contact section stop here --------
+---------------------------------------------*/
+.login-section {
+  background-color: #f5f5f5;
+}
+.login-section .login-page {
+  background-color: #fff;
+  margin: 50px 0px;
+}
+
+/* ------------------------------------------
+--------- login section start here --------
+---------------------------------------------*/
+.login-section .login-page .login-title i {
+  color: #fff;
+  padding: 6px 8px;
+  background-color: #46b56b;
+  margin: 20px 5px 10px 20px;
+}
+.login-section .login-page .login-description {
+  margin: 0px 20px 20px;
+}
+.login-section .login-page input.login-email {
+  margin: 0px 20px 20px;
+  width: 95%;
+}
+.login-section .login-page input.login-password {
+  width: 95%;
+  margin: 0px 20px 20px;
+}
+.login-section .login-page button.login-btn {
+  width: 95%;
+  margin: 0px 20px 20px;
+}
+.login-section .login-page .login-check {
+  margin: 0px 20px 20px 20px;
+}
+.login-section .login-page .login-forgot {
+  margin: 0px 20px 20px 20px;
+  text-decoration: none;
+  color: #dc3545;
+}
+.login-section .create-account {
+  background-color: #fff;
+  padding: 30px 10px;
+  margin-bottom: 50px;
+}
+.login-section .create-account a {
+  background-color: #2b2e3b;
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  padding: 15px;
+}
+
+/* ------------------------------------------
+--------- login section stop here --------
+---------------------------------------------*/
+/* ------------------------------------------
+--------- login section start here --------
+---------------------------------------------*/
+/* ------------------------------------------
+--------- login section stop here --------
 ---------------------------------------------*/
 
 /*# sourceMappingURL=style.css.map */
