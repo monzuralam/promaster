@@ -371,5 +371,43 @@ header nav ul button {
 /* ------------------------------------------
 --------- mise section stop here --------
 ---------------------------------------------*/
+/* ------------------------------------------
+--------- footer section start here --------
+---------------------------------------------*/
+.footer {
+  background-color: #2b2e3b;
+  padding-top: 0;
+}
+.footer .bottom {
+  margin-top: 90px;
+  backround-color: #262934;
+  height: 68px;
+}
+.footer .bottom .site-info {
+  color: #a9abb0;
+  line-height: 68px;
+}
+.footer .bottom .site-info a {
+  text-decoration: none;
+  color: green;
+  font-weight: 500;
+}
+.footer .bottom .social-link {
+  line-height: 68px;
+  color: #fff;
+}
+.footer .bottom .social-link a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 10px;
+  transition: 0.3s;
+}
+.footer .bottom .social-link a:hover {
+  color: #46B56B;
+}
+
+/* ------------------------------------------
+--------- footer section stop here --------
+---------------------------------------------*/
 
 /*# sourceMappingURL=style.css.map */
