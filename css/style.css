@@ -294,6 +294,10 @@ header nav ul button {
 .teacher-section .single-teacher .teacher-name a:hover {
   color: #868e96;
 }
+.teacher-section .single-teacher .teacher-description {
+  padding: 10px 15px;
+  text-align: justify;
+}
 .teacher-section .single-teacher .teacher-course {
   padding-bottom: 25px;
   width: 80%;
