@@ -587,5 +587,35 @@ header nav ul button {
 /* ------------------------------------------
 --------- teacher's section stop here --------
 ---------------------------------------------*/
+/* ------------------------------------------
+--------- about section stop here --------
+---------------------------------------------*/
+.about-section {
+  background-color: #f5f5f5;
+  padding: 90px 0px;
+}
+.about-section .about {
+  background: #fff;
+  padding: 30px;
+}
+.about-section .about .about-title .about-icon i {
+  font-size: 32px;
+  padding-right: 10px;
+  color: #46b56b;
+}
+.about-section .about .about-our-aim .about-our-aim-title i {
+  color: #46b56b;
+}
+.about-section .about .about-our-aim .aim-list ul li {
+  list-style: none;
+}
+.about-section .about .about-our-aim .aim-list ul li i {
+  color: #46b56b;
+  padding-right: 5px;
+}
+
+/* ------------------------------------------
+--------- about section stop here --------
+---------------------------------------------*/
 
 /*# sourceMappingURL=style.css.map */
