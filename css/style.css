@@ -776,7 +776,6 @@ header nav ul button {
   background-color: #fff;
   text-align: center;
   border-radius: 3px;
-  position: absolute;
   top: -125px;
   right: 30px;
 }
@@ -786,6 +785,51 @@ header nav ul button {
 .single-trainer-section .single-teacher .teacher-description {
   padding: 0px 25px 25px;
   text-align: justify;
+}
+.single-trainer-section .all-course-title {
+  text-align: center;
+  color: #46B56B;
+  margin-top: 90px;
+}
+.single-trainer-section .course {
+  background-color: #fff;
+  margin: 90px 0px;
+  display: table;
+  border-radius: 10px;
+}
+.single-trainer-section .course .course-image {
+  margin-bottom: 15px;
+}
+.single-trainer-section .course .course-image img {
+  display: block;
+}
+.single-trainer-section .course .course-image span {
+  top: 18%;
+  color: #fff;
+  padding: 5px 10px;
+  background: #46b56b;
+  left: 30%;
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+}
+.single-trainer-section .course .course-title {
+  margin-bottom: 10px;
+  padding: 0px 15px;
+  color: #46B56B;
+}
+.single-trainer-section .course .course-description {
+  margin: 0px 5px;
+  margin-bottom: 18px;
+  color: #5a5e6a;
+  padding: 0 10px;
+}
+.single-trainer-section .course .action {
+  margin: 0px 10px;
+}
+.single-trainer-section .course .action button {
+  margin-bottom: 10px;
+  padding: 0.25rem 0.5rem !important;
 }
 
 /* -------------------------------------------------
