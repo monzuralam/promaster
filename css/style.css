@@ -45,7 +45,7 @@ body {
 --- nav section start here ----
 --------------------------------*/
 header {
-  height: 100px;
+  height: 100%;
   background-color: #fff;
   border-bottom: 1px solid #eee;
 }
@@ -750,6 +750,47 @@ header nav ul button {
 /* ------------------------------------------
 --------- join section stop here --------
 ---------------------------------------------*/
+/* --------------------------------------------------
+--------- single trainer section start here --------
+---------------------------------------------------*/
+.single-trainer-section {
+  background-color: #f5f5f5;
+  height: 100%;
+}
+.single-trainer-section .course-header {
+  height: 100%;
+}
+.single-trainer-section .single-feature-image {
+  margin: 90px 0px 50px;
+}
+.single-trainer-section .single-feature-image img {
+  max-height: 100%;
+  max-width: 100%;
+}
+.single-trainer-section .trainer-content {
+  background-color: #fff;
+  margin-top: 10px;
+  padding: 20px;
+}
+.single-trainer-section .single-teacher {
+  background-color: #fff;
+  text-align: center;
+  border-radius: 3px;
+  position: absolute;
+  top: -125px;
+  right: 30px;
+}
+.single-trainer-section .single-teacher .teacher-photo {
+  padding: 25px 0px;
+}
+.single-trainer-section .single-teacher .teacher-description {
+  padding: 0px 25px 25px;
+  text-align: justify;
+}
+
+/* -------------------------------------------------
+--------- single trainer section stop here --------
+---------------------------------------------------*/
 /* ------------------------------------------
 ---------  section start here --------
 ---------------------------------------------*/
