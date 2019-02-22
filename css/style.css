@@ -689,7 +689,7 @@ header nav ul button {
   margin: 0px 20px 20px;
   width: 95%;
 }
-.login-section .login-page input.login-password {
+.login-section .login-page input.login-password, .login-section .login-page input {
   width: 95%;
   margin: 0px 20px 20px;
 }
@@ -697,8 +697,9 @@ header nav ul button {
   width: 95%;
   margin: 0px 20px 20px;
 }
-.login-section .login-page .login-check {
-  margin: 0px 20px 20px 20px;
+.login-section .login-page input.login-check {
+  margin: 0px 0px 20px 20px;
+  width: 5%;
 }
 .login-section .login-page .login-forgot {
   margin: 0px 20px 20px 20px;
